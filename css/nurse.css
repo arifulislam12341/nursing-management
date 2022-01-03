@@ -1,0 +1,66 @@
+body{
+
+    background-image: url('../image/nurse1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+
+    width: 300px;
+    padding:20px;
+    height:250px;
+    position: absolute;
+    top:40%;
+    left:50%;
+    color:white;
+    transform: translate(-50%,-50%);
+    background:rgba(0,0,0,0.8);
+    text-align: centre;
+    color:white;
+    text-transform: uppercase;
+    border-radius: 40px;
+    
+    }
+    .menu{
+        width:400px;
+        float:left;
+        height:70px;
+    }
+    ul{
+        float:left;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li{
+        list-style: none;
+        margin-left: 62px;
+        margin-top: 20px ;
+        font-size: 14px;
+    }
+    ul li a{
+        text-decoration:none ;
+        color:#fff;
+        font-family:arial;
+        font-weight: bold;
+        transition:0.4s ease-in-out ;
+    }
+
+    ul li a:hover{
+        color:orangered;
+    }
+    ul{
+        width:auto;
+        padding:20px;
+        height:auto;
+        position: absolute;
+        left:5px;
+        color:white;
+        transform: translate(-50%,-50%);
+        background:rgba(0,0,0,0.8);
+        text-align: centre;
+        color:white;
+        text-transform: uppercase;
+        border-radius: 40px;
+    }

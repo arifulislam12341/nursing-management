@@ -1,0 +1,100 @@
+body{
+
+    background-image: url('../image/patient.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+
+    width: 600px;
+    padding:14px;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:white;
+    transform: translate(-50%,-50%);
+    background:rgba(0,0,0,0.5);
+    text-align: centre;
+    color:white;
+    text-transform: uppercase;
+    border-radius: 40px;
+    
+    }
+
+    .box input[type="submit"]
+    { 
+        border:0;
+        background: black;
+        display:black;
+        margin: 20px auto;
+        text-align: centre;
+        border:3px solid #2ecc71;
+        padding:10px 20px;
+        position: relative;
+        top:-20%;
+        left: 30%;
+        outline: none;
+        color: mintcream;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor:pointer;
+    }
+    .box input[type="reset"]{
+        border:0;
+        background: black;
+        display:black;
+        margin: 20px auto;
+        text-align: centre;
+        border:3px solid #2ecc71;
+        padding:10px 20px;
+        position: relative;
+        top:-20%;
+        left: 30%;
+        outline: none;
+        color: mintcream;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor:pointer;
+        
+    }
+    .box input[type="text"]
+{
+border-radius:40px;
+
+}
+
+
+
+.box input[type="contact"]
+{
+
+border-radius:40px;
+
+}
+
+.box input[type="nid"]
+{
+border-radius:40px;
+
+}
+.box input[type="email"]
+{
+border-radius:40px;
+
+}
+.box input[type="password"]
+{
+border-radius:40px;
+
+}
+  
+    
+    .box input[type="submit"]:hover
+    {
+    background:#2ecc71;
+    }
+    .box input[type="reset"]:hover
+    {
+    background:#2ecc71;
+    }

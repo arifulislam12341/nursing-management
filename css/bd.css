@@ -1,0 +1,47 @@
+body{
+
+    background-image: url('../image/bld.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color:white;
+}
+.menu{
+    width:400px;
+    float:left;
+    height:70px;
+}
+
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 20px ;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration:none ;
+    color:#fff;
+    font-family:arial;
+    font-weight: bold;
+    transition:0.4s ease-in-out ;
+}
+
+ul li a:hover{
+    color:orangered;
+}
+ul{
+    width:fit-content;
+    padding:25px;
+    padding-left: 0px;
+    height:fit-content;
+    position: absolute;
+    top:200px;
+    left:150px;
+    transform: translate(-50%,-50%);
+    background:rgba(0,0,0,0.4);
+    text-align: centre;
+    text-transform: uppercase;
+    border-radius: 40px;
+}

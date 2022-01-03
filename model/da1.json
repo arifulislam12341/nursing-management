@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Rokan",
+        "serial": "101",
+        "medicineList": "Napa"
+    },
+    {
+        "name": "Marfy",
+        "serial": "103",
+        "medicineList": "                    \r\n      Napa,Ace,Montilab              "
+    },
+    {
+        "name": "marfy",
+        "serial": "123",
+        "medicineList": "                    \r\n       napa             "
+    },
+    {
+        "name": "alifislam",
+        "serial": "2",
+        "medicineList": "                    \r\n                 napaextra   "
+    },
+    {
+        "name": "ariful",
+        "serial": "1",
+        "medicineList": "                    \r\n         norwaygastricpills           "
+    }
+]

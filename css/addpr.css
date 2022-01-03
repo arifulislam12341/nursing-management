@@ -1,0 +1,126 @@
+body{
+
+    background-image: url('../image/pr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+
+    width: 600px;
+    padding:30px;
+    height:350px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    color:white;
+    transform: translate(-50%,-50%);
+    background:rgba(0,0,0,0.3);
+    text-align: centre;
+    color:white;
+    text-transform: uppercase;
+    border-radius: 45px;
+    }
+
+
+    .box input[type="text"]
+    {
+    border-radius:40px;
+    
+    }
+    
+    .box input[type="number"]
+    {
+    border-radius:40px;
+    
+    }
+    .box input[type="submit"]
+    { 
+        border:0;
+        background: rgba(0,0,0,0.8);
+        display:black;
+        margin: 20px auto;
+        text-align: centre;
+        border:3px solid #2ecc71;
+        padding:10px 20px;
+        position: relative;
+        top:-20%;
+        left: 70%;
+        outline: none;
+        color: mintcream;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor:pointer;
+    }
+    .box input[type="reset"]{
+        border:0;
+        background:rgba(0,0,0,0.8);
+        display:black;
+        margin: 20px auto;
+        text-align: centre;
+        border:3px solid #2ecc71;
+        padding:10px 20px;
+        position: relative;
+        top:-20%;
+        left: 70%;
+        outline: none;
+        color: mintcream;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor:pointer;
+        
+    }
+  
+    .box input[type="submit"]:hover
+    {
+    background:#2ecc71;
+    }
+    .box input[type="reset"]:hover
+    {
+    background:#2ecc71;
+    }
+
+    .menu{
+        width:400px;
+        float:left;
+        height:70px;
+    }
+    ul{
+        float:left;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li{
+        list-style: none;
+        margin-left: 62px;
+        margin-top: 20px ;
+        font-size: 14px;
+    }
+    ul li a{
+        text-decoration:none ;
+        color:#fff;
+        font-family:arial;
+        font-weight: bold;
+        transition:0.4s ease-in-out ;
+    }
+
+    ul li a:hover{
+        color:orangered;
+    }
+    ul{
+        width:auto;
+        padding:20px;
+        height:auto;
+        position: absolute;
+        left:5px;
+        color:white;
+        transform: translate(-50%,-50%);
+        background:rgba(0,0,0,0.8);
+        text-align: centre;
+        color:white;
+        text-transform: uppercase;
+        border-radius: 40px;
+    }
+  
